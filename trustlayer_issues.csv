@@ -1,0 +1,22 @@
+source_row,rule_id,severity,column,value,message
+51,REQUIRED_MISSING,CRITICAL,order_date,<missing>,Required field 'order_date' is missing or blank.
+4,REQUIRED_MISSING,CRITICAL,customer_id,<missing>,Required field 'customer_id' is missing or blank.
+61,REQUIRED_MISSING,CRITICAL,customer_id,<missing>,Required field 'customer_id' is missing or blank.
+26,REQUIRED_MISSING,CRITICAL,product,<missing>,Required field 'product' is missing or blank.
+91,REQUIRED_MISSING,CRITICAL,product,  ,Required field 'product' is missing or blank.
+71,REQUIRED_MISSING,CRITICAL,category,<missing>,Required field 'category' is missing or blank.
+46,REQUIRED_MISSING,CRITICAL,region,   ,Required field 'region' is missing or blank.
+35,DUPLICATE_ORDER_ID,CRITICAL,order_id,ORD-100035,Order ID occurs more than once in this batch.
+36,DUPLICATE_ORDER_ID,CRITICAL,order_id,ORD-100035,Order ID occurs more than once in this batch.
+75,DUPLICATE_ORDER_ID,CRITICAL,order_id,ORD-100075,Order ID occurs more than once in this batch.
+76,DUPLICATE_ORDER_ID,CRITICAL,order_id,ORD-100075,Order ID occurs more than once in this batch.
+9,INVALID_DATE,CRITICAL,order_date,not-a-date,Date cannot be parsed; use an unambiguous date such as YYYY-MM-DD.
+81,INVALID_DATE,CRITICAL,order_date,31/31/2026,Date cannot be parsed; use an unambiguous date such as YYYY-MM-DD.
+41,INVALID_NUMBER,CRITICAL,quantity,many,'quantity' must contain a valid number.
+96,INVALID_NUMBER,CRITICAL,quantity,2 units,'quantity' must contain a valid number.
+15,NON_POSITIVE_VALUE,CRITICAL,quantity,-2,'quantity' must be greater than zero.
+66,NON_POSITIVE_VALUE,CRITICAL,quantity,0,'quantity' must be greater than zero.
+21,INVALID_NUMBER,CRITICAL,unit_price,not-a-price,'unit_price' must contain a valid number.
+56,REQUIRED_MISSING,CRITICAL,unit_price,<missing>,Required numeric field 'unit_price' is missing.
+31,NON_POSITIVE_VALUE,CRITICAL,unit_price,0,'unit_price' must be greater than zero.
+86,NON_POSITIVE_VALUE,CRITICAL,unit_price,-10,'unit_price' must be greater than zero.

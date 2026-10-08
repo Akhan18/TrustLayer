@@ -1,0 +1,18 @@
+{
+  "batch_status": "BLOCKED",
+  "total_rows": 250,
+  "approved_rows": 229,
+  "quarantined_rows": 21,
+  "data_quality_score": 91.6,
+  "issue_count": 21,
+  "unique_rules_triggered": 5,
+  "rule_counts": {
+    "REQUIRED_MISSING": 8,
+    "DUPLICATE_ORDER_ID": 4,
+    "NON_POSITIVE_VALUE": 4,
+    "INVALID_NUMBER": 3,
+    "INVALID_DATE": 2
+  },
+  "missing_columns": [],
+  "policy": "Strict release gate: publish only when every row passes all critical checks."
+}
